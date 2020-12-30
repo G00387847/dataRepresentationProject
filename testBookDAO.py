@@ -14,7 +14,7 @@ book2 = {
      'price': 40
 }
 
-returnvalue = BookDao.create(book)
+# returnvalue = BookDao.create(book)
 returnValue = BookDao.getAll()
 print(returnValue)
 returnValue = BookDao.findById(book2['id'])
